@@ -86,82 +86,6 @@
     color:var(--accent);
     margin-top:4px;
   }
-
-
-  .course-link{
-    display:block;
-    color:inherit;
-    text-decoration:none;
-  }
-  .course-card{
-    transition:transform .2s ease, box-shadow .2s ease;
-    cursor:pointer;
-  }
-  .course-link:hover .course-card{
-    transform:translateY(-3px);
-    box-shadow:6px 6px 0 var(--ink);
-  }
-  .course-arrow{
-    display:inline-block;
-    margin-top:8px;
-    font-size:14px;
-    color:var(--accent);
-    border-bottom:1px solid var(--accent);
-  }
-  .course-detail{
-    scroll-margin-top:24px;
-  }
-  .course-description{
-    font-size:18px;
-    max-width:60ch;
-    margin:0 0 24px;
-  }
-  .course-results{
-    display:grid;
-    grid-template-columns:1fr;
-    gap:0;
-  }
-  .result-card{
-    border-top:1px solid #eee;
-    padding:22px 0;
-  }
-  .result-number{
-    font-size:13px;
-    color:var(--muted);
-    margin:0 0 4px;
-  }
-  .result-title{
-    font-size:20px;
-    font-weight:700;
-    margin:0 0 6px;
-  }
-  .result-desc{
-    color:var(--muted);
-    margin:0 0 6px;
-  }
-
-  .course-card{
-    border:2px solid var(--line);
-    padding:24px;
-    margin-top:8px;
-  }
-  .course-card .title{
-    font-size:22px;
-    font-weight:700;
-    margin:0 0 8px;
-  }
-  .course-card .intro{
-    color:var(--muted);
-    margin:0 0 18px;
-  }
-  .course-card ul{
-    margin:0;
-    padding-left:20px;
-  }
-  .course-card li{
-    margin:7px 0;
-  }
-
   .project a.view{
     font-size:14px;
     display:inline-block;
@@ -221,53 +145,15 @@
     </p>
   </section>
 
-  <section class="courses">
-    <h2>課程學習</h2>
-
-    <a class="course-link" href="#digital-tech-course" aria-label="查看數位科技概論成果作品">
-      <div class="course-card">
-        <p class="title">數位科技概論</p>
-        <p class="intro">點擊查看這堂課的學習成果與作品</p>
-        <span class="course-arrow">查看成果作品 →</span>
-      </div>
-    </a>
-  </section>
-
-  <section class="course-detail" id="digital-tech-course">
-    <h2>數位科技概論</h2>
-    <p class="course-description">
-      這裡展示我在「數位科技概論」課程中的學習成果、作品與學習紀錄。
-    </p>
-
-    <div class="course-results">
-      <div class="result-card">
-        <p class="result-number">01</p>
-        <p class="result-title">成果作品一</p>
-        <p class="result-desc">在這裡放置這堂課的第一個成果作品介紹、製作內容與學習心得。</p>
-        <p class="tags">數位科技 · 課程作品</p>
-        <a class="view" href="#" target="_blank">查看作品 →</a>
-      </div>
-
-      <div class="result-card">
-        <p class="result-number">02</p>
-        <p class="result-title">成果作品二</p>
-        <p class="result-desc">在這裡放置第二個成果作品，以及完成作品時所學到的技術與概念。</p>
-        <p class="tags">科技應用 · 課程作品</p>
-        <a class="view" href="#" target="_blank">查看作品 →</a>
-      </div>
-
-      <div class="result-card">
-        <p class="result-number">03</p>
-        <p class="result-title">成果作品三</p>
-        <p class="result-desc">在這裡放置第三個成果作品與學習成果，可加入圖片、作品連結或檔案。</p>
-        <p class="tags">學習成果 · 課程作品</p>
-        <a class="view" href="#" target="_blank">查看作品 →</a>
-      </div>
-    </div>
-  </section>
-
   <section class="projects">
     <h2>作品 / 專案</h2>
+
+    <div class="project">
+      <p class="title">數位科技概論</p>
+      <p class="desc">這學期在「數位科技概論」課堂上完成的作業與成果整理。</p>
+      <p class="tags">課堂作業</p>
+      <a class="view" href="digital-tech.html">查看課程成果 →</a>
+    </div>
 
     <div class="project">
       <p class="title">專案一：這裡放專案名稱</p>
@@ -289,15 +175,6 @@
       <p class="tags">Figma</p>
       <a class="view" href="#" target="_blank">查看專案 →</a>
     </div>
-
-    <div class="project">
-      <p class="title">專案四：這裡放專案名稱</p>
-      <p class="desc">一句話說明這個專案在做什麼、用了什麼技術、解決了什麼問題。</p>
-      <p class="tags">你的技術標籤</p>
-      <a class="view" href="#" target="_blank">查看專案 →</a>
-    </div>
-
-
 
   </section>
 
